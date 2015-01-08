@@ -1,0 +1,52 @@
+.caja{
+	float: left;
+	padding: 10px;
+}
+#pedidos{
+	width: 10%;
+}
+#pedidos li{
+	list-style: none;
+	height: 30px;
+	padding: 5px;
+	color:rgb(60, 60, 60);
+}
+#pedidos li:nth-child(odd){
+	background-color: rgb(229, 229, 229);
+}
+
+#caja-pedido{
+	padding: 10px;
+	width: 80%;
+
+}
+
+#caja-pedido #caja_productos{
+	width: 30%;
+	float: left;
+	text-align: center;
+
+}
+
+#caja-pedido #caja_productos #busqueda{
+	width: 80%;
+	height: 30px;
+	text-align:center;
+}
+#caja-pedido #caja_productos #lista_productos li{
+	list-style: none;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+	color:rgb(60, 60, 60);
+}
+
+#caja-pedido #caja_productos #lista_productos li:nth-child(odd){
+	background-color: rgb(216, 248, 255)
+}
+
+#caja-pedido #caja_cuenta{
+	float: left;
+	width: 30%;
+	height: 10px;
+}

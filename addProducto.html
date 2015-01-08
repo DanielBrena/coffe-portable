@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Producto</title>
+	<link rel="stylesheet" href="">
+	<script src="js/jquery.js"></script>
+	<script src="js/database.js"></script>
+	<script src="js/coffe.js"></script>
+	<script src="js/addProducto.js"></script>
+</head>
+<body>
+
+	<div id="contenedor">
+		
+		<div id="alta">
+			<input id="id" type="hidden" value="">
+			<input id="nombre" class="caja" type="text" placeholder="Nombre">
+			<input id="precio" class="caja"  type="number" min="0.0" value="0.0" placeholder="Precio">
+			<input id="fecha" class="caja"  type="date">
+			<select id="existe" class="caja" >
+				<option value="0">No Hay producto</option>
+				<option value="1">Hay producto</option>
+			</select>
+			<br>
+			<br>
+			<input class="btn" id="guardar" type="button" value="Guardar">
+			<input class="btn" id="actualizar" type="button" value="Actualizar">
+			<input class="btn" id="cancelar" type="button" value="Cancelar">
+
+		</div>
+		<br>
+		<br>
+		<div id="lista">
+			<table id="productos">
+			</table>
+		</div>
+	
+	</div>
+	
+</body>
+</html>
